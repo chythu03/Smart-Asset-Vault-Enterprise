@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+
+    font-family: sans-serif;
+    background-color: #ABC;
+    padding: 0px;
+}
+.homepage{
+    background-image: url("images/nu-3.jpg");
+    background-size: 100% 110%;
+    width: 100%;
+    height: 190vh;
+}
+
+.menu{
+    width: 120%;
+    height: 60px;
+    background-color: firebrick;
+}
+
+.leftmenu{
+    width: 25%;
+    line-height:75px;
+    float: left;
+}
+
+.leftmenu h4{
+    padding-left: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+    
+}
+    
+.rightmenu ul{
+    margin-left: 0px;
+    color: white;
+}
+
+.rightmenu ul li{
+    font-family: sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    line-height: 80px;
+    margin-left: 0px;
+    
+}
+.rightmenu ul li{
+    color: black;
+    
+}
+
+   
+ul#navmenu, ul.sub1, ul.sub2{
+    list-style-type: none;
+    font-size: 9pt;
+    
+}
+
+ul#navmenu li {
+   
+    width: 100px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+ul#navmenu a{
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    line-height: 25px;
+    background-color: firebrick;
+    color: white;
+}
+
+ul#navmenu .sub1 li{
+   height: 40px;
+    line-height: 80px;
+    
+}
+ul#navmenu .sub2 a{
+   margin-left: 8px;
+}
+
+
+ul#navmenu .sub1 a {
+    margin-top: 5px;
+}
+
+
+
+ul#navmenu li:hover > a{
+    background-color: firebrick;
+}
+
+ul#navmenu li:hover a:hover{
+    background-color: lightcoral;
+}
+
+
+ul#navmenu ul.sub1{
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 0px;
+    
+}
+ul#navmenu ul.sub2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 126px;
+    
+}
+
+
+ul#navmenu li:hover .sub1 {
+    display: block;
+}
+
+ul#navmenu .sub1 li:hover .sub2{
+    display: block;
+}
+
+
+
+.rarrow{
+    font-size: 13pt;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    left: 130px;
+    color: firebrick;
+}
+.box
+{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: firebrick;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.box h2
+    {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+.box .inputBox
+    {
+        position: relative;
+    }
+
+.box .inputBox
+    {
+        width: 80%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        
+        margin-bottom: 30px;
+        border: none;
+        
+        outline: none;
+        background: transparent;
+    }
+.boxx
+    {
+
+        width: 100%;
+        padding: 5px 0;
+        font-size: 15px;
+        color: #fff;
+        
+        margin-bottom: 30px;
+        border: none;
+        
+        outline: none;
+        background: transparent;
+    }
+.box1
+    {
+
+        width: 100%;
+        padding: 5px 0;
+        font-size: 15px;
+        color: #fff;
+        
+        margin-bottom: 30px;
+        border: none;
+        
+        outline: none;
+        background: transparent;
+    }
+.box .inputBox label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    
+}
+
+
+.sub{
+    padding-left: 110px;
+      line-height: 75px;
+}
+
+.button {
+   background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
