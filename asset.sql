@@ -41,7 +41,6 @@ Select act from UserN where UserID='00001' and password=aes_encrypt('hello123','
 /*-------------------------------------------------------------------------------------------------------------*/
 
 CREATE TABLE stat(status varchar(15) primary key)engine=InnoDB default charset=latin1;
-
 insert into stat values('damaged');
 insert into stat values('working');
 insert into stat values('In repare');
