@@ -1,5 +1,4 @@
 package model;
-
 public class user {
 	private String actor,name;
 	private int id;
